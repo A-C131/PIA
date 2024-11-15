@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Llena tu casa de Samsung</title>
+    <style>
+        /* CSS Combinado */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            background-color: #0b0c0c;
+            color: rgb(255, 255, 255);
+        }
+
+        .navbar {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 1em;
+            background-color: #ffffff;
+        }
+
+        .navbar .logo {
+            height: 100px;
+        }
+
+        .navbar ul {
+            list-style: none;
+            display: flex;
+        }
+
+        .navbar ul li {
+            margin-left: 20px;
+        }
+
+        .navbar ul li a {
+            text-decoration: none;
+            color: rgb(0, 0, 0);
+            font-weight: bold;
+        }
+
+        .promo {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 2em;
+            min-height: 100vh;
+            background-image: url('fondo.jpg'); /* Imagen de fondo */
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+
+        .promo-text h1 {
+            font-size: 2.5em;
+            color: #ffffff;
+        }
+
+        .promo-text p {
+            margin: 10px 0;
+            line-height: 1.5;
+            color: #ffffff;
+        }
+
+        .btn {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: white;
+            color: #0b0c0c;
+            font-weight: bold;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1em;
+            background-color: #ffffff;
+            color: #0b0c0c;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <img src="Samsung.png" alt="Samsung Logo" class="logo">
+            <nav>
+                <ul>
+                    <li><a href="tienda-en-linea.html">Tienda en línea</a></li> 
+                    <li><a href="comprar-ahora.html">Comprar ahora</a></li>
+                    <li><a href="Quienes somos.html">Quiénes somos</a></li>
+                    <li><a href="Sucursales.html">Sucursales</a></li>
+                    <li><a href="Contactanos.html">Contáctanos</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="promo">
+            <div class="promo-text">
+                <h1>¿Qué estás buscando hoy?</h1>
+                <p>Bienvenido(a)<br>Hasta $1,000,000 en ofertas.</p>
+                <p>Válido del 04 de noviembre de 2024 al 05 de enero de 2025.</p>
+                <a href="comprar-ahora.html" class="btn">Compra ahora</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        PIA - Angel Cardona Mancilla - Basado en Samsung.com
+    </footer>
+</body>
+</html>
